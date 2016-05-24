@@ -1,0 +1,10 @@
+<div ng-include src="'partials/toolbar.html'"></div>
+
+<div ng-controller="toasts" id="toasts">
+    <div ng-repeat="item in items" class="alert alert-{{item.type}}" role="alert" ng-class="{toasted: item.enable}">
+        <span class="close" ng-click="close($index)">&times;</span>
+        {{item.message}}
+    </div>
+</div>
+
+<div ng-view></div>

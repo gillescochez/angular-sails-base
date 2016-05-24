@@ -1,0 +1,17 @@
+{
+    "name": "angular-sails-base",
+    "description": "Angular / Sails base",
+    "version": "0.1.0",
+    "homepage": "",
+    "private": true,
+    "dependencies": {
+        "angular": "1.2.x",
+        "angular-route": "1.2.x",
+        "angular-loader": "1.2.x",
+        "angular-mocks": "~1.2.x",
+        "angular-cookies": "~1.2.x",
+        "angular-ui-bootstrap-bower": "0.11.0",
+		"sails.io.js": "0.10.3",
+        "bootstrap": "3.2.0"
+    }
+}

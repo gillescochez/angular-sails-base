@@ -1,0 +1,9 @@
+logs/*
+!.gitkeep
+node_modules/
+dependencies/
+tmp
+.idea
+*.iml
+dist
+.log
